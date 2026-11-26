@@ -85,7 +85,7 @@ flowchart LR
 
 ![S6E8 Score Progression](assets/s6e8_progression.png)
 
-![S6E8 Public vs Private Generalization](assets/s6e8_pub_vs_priv_scatter.png)
+![S6E8 Public vs Private Generalization](assets/s6e8_pub_vs_priv_scatter.svg)
 
 ---
 
