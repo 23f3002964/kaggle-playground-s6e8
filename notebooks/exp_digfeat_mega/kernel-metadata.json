@@ -1,0 +1,14 @@
+{
+  "id": "adityaraj0612/playground-s6e8-dv12-digit-mega",
+  "title": "Playground S6E8 - DV12 Digit Mega Stack",
+  "code_file": "experiment_digfeat_mega.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "enable_internet": true,
+  "dataset_sources": ["adityaraj0612/s6e8-stack-pool"],
+  "competition_sources": ["playground-series-s6e8"],
+  "kernel_sources": []
+}

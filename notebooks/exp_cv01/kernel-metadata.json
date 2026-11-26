@@ -1,0 +1,13 @@
+{
+  "id": "adityaraj0612/playground-s6e8-cv01",
+  "title": "Playground S6E8 - CV01 CV Strategy",
+  "code_file": "experiment_cv01.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["playground-series-s6e8"],
+  "kernel_sources": []
+}

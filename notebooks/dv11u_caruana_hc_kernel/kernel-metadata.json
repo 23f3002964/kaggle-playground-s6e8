@@ -1,0 +1,14 @@
+{
+  "id": "adityaraj0612/s6e8-dv11u-caruana-hc",
+  "title": "S6E8 DV11U Caruana HC",
+  "code_file": "kernel.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "szymonkapiski/s6e8-oof-library-47-models"
+  ],
+  "competition_sources": ["playground-series-s6e8"]
+}

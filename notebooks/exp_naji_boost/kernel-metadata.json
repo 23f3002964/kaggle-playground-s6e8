@@ -1,0 +1,13 @@
+{
+  "id": "adityaraj0612/playground-s6e8-naji-boost",
+  "title": "Playground S6E8 - Naji Boost",
+  "code_file": "experiment_naji_boost.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["adityaraj0612/s6e8-stack-pool"],
+  "competition_sources": ["playground-series-s6e8"],
+  "kernel_sources": ["adityaraj0612/playground-s6e8-dv12-digit-mega-stack"]
+}

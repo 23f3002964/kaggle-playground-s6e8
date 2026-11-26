@@ -1,0 +1,13 @@
+{
+  "id": "adityaraj0612/playground-s6e8-dv0678-diversity",
+  "title": "Playground S6E8 - DV0678 Diversity",
+  "code_file": "experiment_dv0678.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["playground-series-s6e8"],
+  "kernel_sources": []
+}

@@ -1,0 +1,67 @@
+# Playground Series S6E8 Configuration
+
+# Data
+data:
+  train_path: "data/train.csv"
+  test_path: "data/test.csv"
+  sample_submission_path: "data/sample_submission.csv"
+  target_col: "addicted_label"
+  id_col: "id"
+
+# Features
+features:
+  numerical:
+    - "age"
+    - "daily_screen_time_hours"
+    - "social_media_hours"
+    - "gaming_hours"
+    - "work_study_hours"
+    - "sleep_hours"
+    - "notifications_per_day"
+    - "app_opens_per_day"
+    - "weekend_screen_time"
+  
+  categorical:
+    - "gender"
+    - "stress_level"
+    - "academic_work_impact"
+
+# Model
+model:
+  name: "lightgbm"
+  params:
+    objective: "binary"
+    metric: "auc"
+    boosting_type: "gbdt"
+    num_leaves: 63
+    learning_rate: 0.05
+    feature_fraction: 0.8
+    bagging_fraction: 0.8
+    bagging_freq: 5
+    verbose: -1
+    seed: 42
+    n_jobs: -1
+  
+  training:
+    num_boost_round: 2000
+    early_stopping_rounds: 100
+    log_evaluation: 100
+
+# Cross-validation
+cv:
+  n_folds: 5
+  shuffle: true
+  random_state: 42
+  stratify: true
+
+# Paths
+paths:
+  model_dir: "models"
+  submission_dir: "submissions"
+  log_dir: "logs"
+  notebook_dir: "notebooks"
+
+# Experiment tracking
+experiment:
+  name: "playground-s6e8-smartphone-addiction"
+  tags: ["kaggle", "playground", "binary-classification", "tabular"]

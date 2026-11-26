@@ -1,0 +1,22 @@
+{
+  "id": "adityaraj0612/s6e8-pool-refresh-inject",
+  "title": "S6E8 Pool Refresh Prune Inject",
+  "code_file": "kernel.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "szymonkapiski/s6e8-oof-library-47-models",
+    "najiama/predicting-smartphone-addiction-oof-submission-csv",
+    "omidbaghchehsaraei/tabm-for-predicting-smartphone-addiction",
+    "donmarch14/s6e8-catboost",
+    "ravi20076/playgrounds6e8-public-l2stack-v1",
+    "ryota517/s6e8-generator-forensics-leak-safe-cv",
+    "factualexplorer/baseline-lgbm-xgb-cb-rank-averaged-oof-tuned",
+    "mohankrishnathalla/s6e8-catboost-mlp-tuner-oof-saver",
+    "evgendvorkin/s6e8-single-lgb"
+  ],
+  "competition_sources": ["playground-series-s6e8"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "adityaraj0612/playground-s6e8-dv14-te-pipeline",
+  "title": "Playground S6E8 - DV14 Exact-Value TE Pipeline",
+  "code_file": "experiment_dv14_te_pipeline.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["playground-series-s6e8"],
+  "kernel_sources": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "adityaraj0612/playground-s6e8-pl01-pseudo-labeling",
+  "title": "Playground S6E8 - PL01 Pseudo-labeling",
+  "code_file": "experiment_pl01.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["playground-series-s6e8"],
+  "kernel_sources": []
+}

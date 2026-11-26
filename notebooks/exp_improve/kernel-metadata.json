@@ -1,0 +1,13 @@
+{
+  "id": "adityaraj0612/playground-s6e8-improve",
+  "title": "Playground S6E8 - Improve on Pool141",
+  "code_file": "experiment_improve.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["playground-series-s6e8"],
+  "kernel_sources": []
+}

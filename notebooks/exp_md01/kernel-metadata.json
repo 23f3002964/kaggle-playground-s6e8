@@ -1,0 +1,13 @@
+{
+  "id": "adityaraj0612/playground-s6e8-md01",
+  "title": "Playground S6E8 - MD01 Model Diversity",
+  "code_file": "experiment_md01.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["playground-series-s6e8"],
+  "kernel_sources": []
+}

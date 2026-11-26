@@ -1,0 +1,42 @@
+# Secrets & Credentials
+kaggle.json
+access_token*
+.env
+.env.*
+*.pem
+*.key
+
+# Large Data & Model Weights
+data/
+out/
+models/
+catboost_info/
+bytes-csv-ds/
+*.csv
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.h5
+*.onnx
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.dcm
+*.nii
+*.nii.gz
+*.log
+
+# Python / OS artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

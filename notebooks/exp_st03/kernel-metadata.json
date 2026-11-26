@@ -1,0 +1,13 @@
+{
+  "id": "adityaraj0612/playground-s6e8-st03",
+  "title": "Playground S6E8 - ST03 LightGBM Meta-Learner",
+  "code_file": "experiment_st03.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["playground-series-s6e8"],
+  "kernel_sources": []
+}
