@@ -1,6 +1,6 @@
 # Kaggle Playground Series S6E8 — Predicting Smartphone Addiction
 
-A complete, reproducible tabular machine learning solution for **Kaggle Playground Series — Season 6 Episode 8 (Predicting Smartphone Addiction)**, achieving **Rank 33 / 1,916 teams** with a **Private LB ROC-AUC of `0.97075`** and **Public LB ROC-AUC of `0.97100`**.
+A complete, reproducible tabular machine learning solution for **Kaggle Playground Series — Season 6 Episode 8 (Predicting Smartphone Addiction)**, achieving **Rank 33 / 1,916 teams** with a **Private LB ROC-AUC of `0.97086`** and **Public LB ROC-AUC of `0.97105`**.
 
 ---
 
@@ -12,7 +12,7 @@ A complete, reproducible tabular machine learning solution for **Kaggle Playgrou
 | **Task** | Binary Classification (`addicted_label` $\in \{0, 1\}$, continuous probability predictions) |
 | **Dataset Size** | `691,369` training samples · `296,302` test samples |
 | **Evaluation Metric** | Area Under the ROC Curve (**ROC-AUC**) |
-| **Final Standing** | **Rank 33 / 1,916** · Public LB `0.97100` · Private LB `0.97075` |
+| **Final Standing** | **Rank 33 / 1,916** · Public LB `0.97105` · Private LB `0.97086` |
 | **Deadline** | `2026-08-31 23:59:00 UTC` |
 
 ### Input Features
@@ -51,7 +51,7 @@ flowchart LR
     B --> D["74-Model OOF Library<br/>+ GBDT/TabM Pool"]
     C --> E["Diagnostic Validation<br/>(CV-First Gate)"]
     D --> E
-    E --> F["50-50 Anchor Blend (B1)<br/>Public: 0.97100 | Private: 0.97075"]
+    E --> F["50-50 Anchor Blend (B1)<br/>Public: 0.97105 | Private: 0.97086"]
 ```
 
 ### Step 1 — Frozen-Fold Validation Alignment (`StratifiedKFold(5, seed=42)`)
@@ -75,9 +75,9 @@ flowchart LR
 - **Aggressive Weight Optimization (`ens_weight`):** Hill-climbing / ridge weights converged to near-uniform due to high inter-model correlation (`r = 0.990–0.993`).
 
 ### Step 5 — Final Anchor Blending & Private Shake-Up Hedge (`B1`, `B2`)
-- **What:** Locked a `50-50` anchor blend (`B1`: `Rayk (0.97100)` + `naji18 (0.97096)`) and tested a `3%` KNN diversity injection (`B2`).
+- **What:** Locked a `50-50` anchor blend (`B1`: `Rayk (0.97105)` + `naji18 (0.97096)`) and tested a `3%` KNN diversity injection (`B2`).
 - **Why:** Historical Playground episodes (`S6E2`, `S6E6`, `S6E7`) showed aggressive public-LB chasing (`>0.97110`) suffered severe private shake-up. Anchoring on an honest OOF-backed model (`naji18`) protected private rank.
-- **How:** `B1` achieved **`0.97100` Public LB / `0.97075` Private LB** (Rank `33 / 1,916`), while `B2` scored `0.97097` Public / `0.97071` Private.
+- **How:** `B1` achieved **`0.97105` Public LB / `0.97086` Private LB** (Rank `33 / 1,916`), while `B2` scored `0.97097` Public / `0.97071` Private.
 
 ---
 
