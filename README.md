@@ -6,6 +6,20 @@ A complete, reproducible tabular machine learning solution for **Kaggle Playgrou
 
 ---
 
+## 💡 In Simple Terms (Non-Technical Guide & Examples)
+
+> *New to machine learning or reviewing from a non-technical background? Here is what this project does in plain English before the technical deep-dive below.*
+
+- **The Goal:** Predict whether a person is likely addicted to their smartphone using **691,369** real-world behavioral records (daily screen time, social media hours, gaming, sleep, notifications per day, age, and stress level).
+- **Why It Was Tricky (Real-World Example):** Normally, AI models group similar numbers together (for example, treating `4.50` hours and `4.51` hours of screen time as the exact same bucket). During our data investigation, we discovered that **exact unrounded numbers** carried hidden signal — almost like exact ZIP codes rather than rough distances.
+- **What We Built:**
+  1. **Fair Practice Tests (5-Fold Validation):** Split the data into 5 separate exam sets so the AI could never memorize answers.
+  2. **Exact-Value Lookup:** Configured the model to read precise values (`max_bin=2047`) instead of rounding them into coarse buckets, which gave an immediate accuracy jump.
+  3. **Second-Opinion Blending:** Combined predictions from 3 different AI families (**LightGBM, XGBoost, CatBoost**) — just like consulting 3 independent specialists and averaging their verdicts so one model's mistake doesn't hurt the final prediction.
+- **Outcome:** Ranked **474 / 3,532 teams (Top 13.4%)** globally with **0.97105 Public / 0.97086 Private ROC-AUC** (~97.1% ranking accuracy).
+
+---
+
 ## 1. Competition Overview & Dataset
 
 | Property | Detail |
