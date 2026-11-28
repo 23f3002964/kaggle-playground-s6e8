@@ -1,6 +1,8 @@
 # Kaggle Playground Series S6E8 — Predicting Smartphone Addiction
 
-A complete, reproducible tabular machine learning solution for **Kaggle Playground Series — Season 6 Episode 8 (Predicting Smartphone Addiction)**, achieving **Rank 33 / 1,916 teams** with a **Private LB ROC-AUC of `0.97086`** and **Public LB ROC-AUC of `0.97105`**.
+[![Kaggle Competition](https://img.shields.io/badge/Kaggle-Competition_Page-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/playground-series-s6e8) [![Kaggle Profile](https://img.shields.io/badge/Kaggle-@adityaraj0612-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/adityaraj0612)
+
+A complete, reproducible tabular machine learning solution for **Kaggle Playground Series — Season 6 Episode 8 (Predicting Smartphone Addiction)**, achieving **Rank 474 / 3,532 teams (Top 13.4%)** with a **Private LB ROC-AUC of `0.97086`** and **Public LB ROC-AUC of `0.97105`**.
 
 ---
 
@@ -12,7 +14,7 @@ A complete, reproducible tabular machine learning solution for **Kaggle Playgrou
 | **Task** | Binary Classification (`addicted_label` $\in \{0, 1\}$, continuous probability predictions) |
 | **Dataset Size** | `691,369` training samples · `296,302` test samples |
 | **Evaluation Metric** | Area Under the ROC Curve (**ROC-AUC**) |
-| **Final Standing** | **Rank 33 / 1,916** · Public LB `0.97105` · Private LB `0.97086` |
+| **Final Standing** | **Rank 474 / 3,532 (Top 13.4%)** · Public LB `0.97105` · Private LB `0.97086` |
 | **Deadline** | `2026-08-31 23:59:00 UTC` |
 
 ### Input Features
